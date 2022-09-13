@@ -1,0 +1,261 @@
+:root {
+    --pryColor: #D3D3D3;
+    --secColor: #272A31;
+    --tetColor: #EC5242;
+    --facts_bg: #4d4e50;
+    --font-family: 'lato', sans-serif;
+    --paragraph : 15px;
+    --h2 : 25px;
+    --h3: 20px;
+}
+
+body {
+    background: var(--pryColor) ;
+    margin: 0px;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/Background_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero_content {
+    padding: 30px;
+}
+
+a {
+    color: var(--secColor);
+}
+
+.hello_text {
+    color: var(--tetColor);
+    font-size: 25px;
+    margin: 35px 0px 0px;
+    font-family: var(--font-family) ;
+}
+ h1 {
+    color: var(--tetColor);
+    margin-top: 5px;
+    margin-bottom: 35px;
+    font-family: var(--font-family) ;
+    /* font-weight: bold; */
+    font-size: 35px;
+
+ }
+
+ .brief {
+    border: 0.5px solid white;
+    background-color: var(--pryColor);
+    padding: 15px;
+    color: var(--secColorr);
+    margin: 15px;
+    font-size: var(--paragraph) ;
+    font-family: var(--font-family) ;
+
+ }
+
+ .date {
+    color: var(--secColor);
+    font-size: 30px;
+    margin: 20px 0px 5px;
+    font-family: var(--font-family) ;
+
+ }
+
+ .location {
+    margin-top: 0;
+    color: var(--secColor);
+    font-size: var(--paragraph) ;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    font-family: var(--font-family) ;
+
+ }
+
+
+ /* Some science facts */
+ .sci_facts {
+    height: auto;
+    background-color: var(--secColor);
+    width: 100%;
+}
+
+.h2_sci_facts {
+    color: var(--pryColor);
+    font-family: var(--font-family) ;
+    font-size: var(--h2);
+    /* font-weight: bold; */
+}
+
+.line {
+    height: 2px;
+    width: 80px;
+    background-color: var(--tetColor);
+    border-radius: 8px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.each_fact {
+    font-size: 15px;
+    border: 0.5px solid white;
+    background-color: var(--facts_bg);
+    padding: 0px 0px 0px 10px;
+        /* margin-top: 30px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: 90%;
+gap: 10px;
+
+}
+
+.fact_img {
+    height: 40px;
+    width: 32px;
+    background-color: #EC5242;
+    width: 15%;
+}
+
+.fact_title {
+    color: var(--tetColor);
+    font-family: var(--font-family) ;
+    font-size: var(--h3);
+    width: 20%;
+    margin: 0px;
+
+}
+
+.fact_text {
+    color: var(--pryColor);
+    width: 50%;
+    font-family: var(--font-family) ;
+    font-size: var(--paragraph);
+}
+
+
+.more_sci_facts{
+    /* margin: 40px; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.more_sci {
+    color: var(--pryColor);
+    background-color: var(--tetColor);
+    border: none;
+    padding: 20px 40px; 
+    width: 100%;
+    font-family: var(--font-family) ;
+    font-size: var(--paragraph);
+}
+
+/* Featured scientist */
+.featured_scientist .title  h2 {
+    color: var(--secColor);
+}
+
+/* partners */
+#partners {
+    background-color: var(--facts_bg);
+}
+
+#companies {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px 0px 30px 0px;
+}
+
+#companies img {
+    width: 100px;
+    height: auto;
+}
+
+/* footer */
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+footer img {
+    width: 100px;
+    height: auto;
+}
+
+footer p {
+   font-family: var(--font-family);
+   font-size: var(--paragraph);
+}
+
+/* mobile menu */
+nav i, #menu i {
+    font-size: var(--h2);
+}
+#menu i{
+    padding-top: 10%;
+}
+
+
+#menu a {
+    display: flex;
+    justify-content: center;
+}
+
+#menu {
+    display: none; 
+     height: 100vh;
+  width: 100%;
+  background-color: var(--pryColor);
+ 
+}
+
+#menu a {
+    text-decoration: none;
+    height: 20%;
+}
+.menu_list {
+    text-decoration: none;
+    color: var(--secColor);
+  }
+
+  #home_color {
+    color: var(--tetColor);
+  }
+  
+  #menu_liststyle {
+    list-style: none;
+    font-family: var(--font-family);
+    font-size: var(--h2);
+    line-height: 80px;
+    margin: 0px;
+    padding: 0px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
