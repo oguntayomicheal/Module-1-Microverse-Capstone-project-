@@ -13,6 +13,7 @@
 
 </head>
 <body>
+    <nav>
     <div id="topbar">
         <ul class="icons">
             <li>
@@ -22,12 +23,13 @@
                 <a href="www.linkedin/mike-dev"><i class="fa fa-linkedin"></i></a>
             </li>
         </ul> 
-        <p>English</p>
-        <p>My page</p>
+        <a href="#"><p>English</p></a>
+        <a href="#"><p>My page</p></a>
     </div>
+    </nav>
 
     <nav id="navbar">
-        <a href="index.html"><img src="" alt="Science fun facts logo"></a>
+        <a href="index.html"><div id="navbar_logo"></div></a>
         <ul id="nav_liststyle">
             <li><a href="index.html" class="menu_list" id="home_color">Home</a></li>
             <li><a href="about.html" class="menu_list">About</a></li>
@@ -70,7 +72,7 @@
        <div id="desk_facts">
             <div class="facts">
                 <div class="each_fact">
-                    <div class="fact_img"></div>
+                    <div class="fact_img"> </div>
                     <h2 class="fact_title">Lorem</h2>
                     <p class="fact_text">Lorem ipsum orem ipsum  orem ipsum  orem ipsum  orem ipsum </p>
                 </div>
@@ -124,7 +126,14 @@
             <div class="line"></div>
         </div>
 
-        <div id="scientist"></div>
+        <div id="desk_scientist">
+            <div id="scientist">
+                <!-- Featured Scientist added dynamically using Javscript -->
+            
+            </div>
+
+            <div id="space"></div>
+        </div>
 
     </section>
 
@@ -146,10 +155,11 @@
     </section>
     
     <footer id="footer">
-        <img src="./assets/mozilla-logo.svg" alt="mozilla logo">
+        <div id="footer_logo"></div>
         <p>2022 Science fun facts</p>
     </footer>
     <script src="./js/mobile_menu.js"></script>
+    <script src="./js/featured-scientist.js" type="module"></script>
 
 </body>
 </html>

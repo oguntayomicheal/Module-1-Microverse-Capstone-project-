@@ -4,7 +4,7 @@
     --tetColor: #EC5242;
     --facts_bg: #4d4e50;
     --font-family: 'lato', sans-serif;
-    --paragraph : 15px;
+    --paragraph : 12px;
     --h2 : 25px;
     --h3: 20px;
 }
@@ -16,6 +16,10 @@
 body {
     background: var(--pryColor) ;
     margin: 0px;
+}
+
+#menu_icon a {
+    font-size: 30px;
 }
 
 #header {
@@ -227,10 +231,15 @@ a {
     gap: 10px;
     padding: 20px;
 }
-footer img {
+
+#footer_logo {
     width: 100px;
-    height: auto;
+    height: 50px;
+    background-image: url('../assets/SciFactsLogo/Grey_SciFactsLogo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 footer p {
    font-family: var(--font-family);
@@ -306,14 +315,15 @@ nav i, #menu i {
     width: 100%;
     background-color: var(--secColor);
     display: flex;
-    padding-left: 60%;
     gap: 20px;
+    justify-content: flex-end;
+    padding-right: 5%;
   }
 
   #topbar p {
     color: var(--pryColor);
     font-family: var(--font-family);
-    font-size: var(--paragraph);
+    font-size: 15px;
     font-weight: bolder;
   }
 
@@ -338,8 +348,17 @@ nav i, #menu i {
     background-color: white;
   }
 
-  #navbar a {
+   #navbar a {
     margin-left: 5%;
+    height: 100%;
+  }
+
+  #navbar_logo {
+    width: 100px;
+    height: 50px;
+    background-image: url('../assets/SciFactsLogo/White_SciFactsLogo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   #nav_liststyle {
@@ -348,7 +367,7 @@ nav i, #menu i {
     font-size: var(--paragraph);
     display: flex;
     gap: 30px;
-    padding: 0px;
+    padding-top: 5px;
     margin-right: 5%;
   }
 

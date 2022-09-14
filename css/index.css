@@ -4,7 +4,7 @@
     --tetColor: #EC5242;
     --facts_bg: #4d4e50;
     --font-family: 'lato', sans-serif;
-    --paragraph : 15px;
+    --paragraph : 12px;
     --h2 : 25px;
     --h3: 20px;
 }
@@ -170,6 +170,10 @@ gap: 10px;
 }
 
 /* Featured scientist */
+.featured_scientist {
+    background-color: white;
+}
+
 .featured_scientist .title  h2 {
     color: var(--secColor);
 }
@@ -202,9 +206,13 @@ gap: 10px;
     gap: 10px;
     padding: 20px;
 }
-footer img {
+
+#footer_logo {
     width: 100px;
-    height: auto;
+    height: 50px;
+    background-image: url('../assets/SciFactsLogo/Grey_SciFactsLogo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer p {
@@ -218,6 +226,10 @@ nav i, #menu i {
 }
 #menu i{
     padding-top: 10%;
+}
+
+#menu_icon a {
+    font-size: 30px;
 }
 
 
@@ -267,6 +279,62 @@ nav i, #menu i {
     display: none;
   }
 
+  /* Featured scientist */
+  .allScientist {
+    width: 90%;
+    padding: 0px;
+    margin: 35px 5%;
+    list-style: none;
+
+  }
+
+  .eachScientist {
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%;
+    margin-bottom: 30px
+  }
+
+  .scientistImg img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .scientistInfo .scientistName {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: var(--h3);
+    font-family: var(--font-family);
+    color: var(--secColor);
+  }
+
+  .scientistTitle {
+    margin: 12px 0px;
+    font-size: var(--paragraph);
+    font-family: var(--font-family);
+    color: var(--tetColor);
+  }
+
+  .separator {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 1px solid var(--pryColor);
+    background-color: var(--pryColor);
+    width: 10%;
+  }
+
+  .scientistDesc {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: var(--paragraph);
+    font-family: var(--font-family);
+    color: var(--secColor);
+  }
+
+  #space {
+    height: 5px;
+  }
+
   /* Desktop version  */
 
 @media screen and (min-width: 768px) {
@@ -280,14 +348,15 @@ nav i, #menu i {
     width: 100%;
     background-color: var(--secColor);
     display: flex;
-    padding-left: 60%;
     gap: 20px;
+    justify-content: flex-end;
+    padding-right: 5%;
   }
 
   #topbar p {
     color: var(--pryColor);
     font-family: var(--font-family);
-    font-size: var(--paragraph);
+    font-size: 15px;
     font-weight: bolder;
   }
 
@@ -314,6 +383,16 @@ nav i, #menu i {
 
   #navbar a {
     margin-left: 5%;
+    height: 100%;
+  }
+
+  #navbar_logo {
+    width: 100px;
+    height: 50px;
+    background-image: url('../assets/SciFactsLogo/White_SciFactsLogo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
   }
 
   #nav_liststyle {
@@ -322,7 +401,7 @@ nav i, #menu i {
     font-size: var(--paragraph);
     display: flex;
     gap: 30px;
-    padding: 0px;
+    padding-top: 5px;
     margin-right: 5%;
   }
 
@@ -392,5 +471,43 @@ gap: 10px;
     font-family: var(--font-family);
     font-size: var(--h2);
 }
+
+    /* Featured scientist */
+
+    #desk_scientist {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+
+    #scientist {
+        width: 90%;
+        /* margin: 0px 5%; */
+    }
+
+    /* .fit {
+        box-sizing: border-box;
+    } */
+.allScientist {
+    width: 100%;
+    padding: 0px;
+    /* margin: 20px 5%; */
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .eachScientist {
+    width: 48%;
+
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%;
+  }
+
+
 
 }
