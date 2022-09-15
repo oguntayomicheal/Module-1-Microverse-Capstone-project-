@@ -93,13 +93,3 @@ scientistInfo.forEach((individual) => {
     scientistInfo.appendChild(scientistDesc);
 }
 );
-
-
-
-
-
-
-
-
-
-
