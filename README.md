@@ -13,9 +13,13 @@ The project is the capstone project for Module 1 in the microverse curriculum. I
 - CSS
 - JavaScript
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]( https://mike-devloper.github.io/Module-1-Microverse-Capstone-project-/)
+
+## Project description video
+
+[Description video](https://www.loom.com/share/8e3404eaec604aabb2a015ef902c8ac6)
 
 
 ## Getting Started
