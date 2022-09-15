@@ -88,8 +88,6 @@ h1 {
   color: var(--pryColor);
   font-family: var(--font-family);
   font-size: var(--h2);
-
-  /* font-weight: bold; */
 }
 
 .line {
