@@ -310,7 +310,8 @@ nav i,
 /* Desktop version  */
 
 @media screen and (min-width: 768px) {
-  #menu_icon, #partners {
+  #menu_icon,
+  #partners {
     display: none;
   }
 
@@ -430,28 +431,27 @@ nav i,
   }
 
   /* footer */
-#footer {
-  justify-content: flex-start;
-  gap: 30px;
-  padding: 20px;
-  background-color: var(--secColor);
-}
+  #footer {
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 20px;
+    background-color: var(--secColor);
+  }
 
+  #footer p {
+    color: white;
+  }
 
-#footer p {
-  color: white;
-}
+  #mobile_footer {
+    display: none;
+  }
 
-#mobile_footer {
-  display: none;
-}
+  #desktop_footer {
+    display: block;
+  }
 
-#desktop_footer {
-  display: block;
-}
-
-#footer_logo {
-  margin-left: 8%;
-  background-image: url('../assets/SciFactsLogo/Black_SciFactsLogo.png.png');
-}
+  #footer_logo {
+    margin-left: 8%;
+    background-image: url('../assets/SciFactsLogo/Black_SciFactsLogo.png.png');
+  }
 }
