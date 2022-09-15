@@ -10,7 +10,7 @@ const scientistInfo = [
     {
         name: 'Galileo Galilei (1564-1642)',
         title: 'Physicist, mathematician, astronomer, engineer, and philosopher.',
-        info: 'He is known as the father of modern observational astronomy, the father of modern physics, and also the father of modern science. From among his several inventions and discoveries, Galileo is best known for his contributions to astronomy. Using the telescope, he was able to confirm the phases of planet Venus, discover and document the four largest satellites of planet Jupiter, which have been named as Galilean moons in his honor, and also observe and analyze sunspots. He even championed the theory of a heliocentricism, at a time when most of the world supported geocentricism.',
+        info: 'He is known as the father of modern observational astronomy, the father of modern physics, and also the father of modern science.',
         image: './assets/scientist/Galileo.jpg',
         altText: 'Galileo Image',
     },
@@ -18,7 +18,7 @@ const scientistInfo = [
     {
         name: 'Sir Isaac Newton (1642 - 1726)',
         title: 'English physicist and mathematician',
-        info: 'He played a key role in the development of calculus, and through his extensive study of light, made the first practical reflecting telescope, a technology which till date is used to study the heavens. But perhaps the most important and famous of his discoveries was that of gravity. Newton was able to, not only describe why an apple fell towards the Earth rather than fly away from it, but also provide the mathematical basis for this theory, and describe the motion of objects. His discoveries went on to lay the foundation of classical mechanics, and are considered to be some of the most significant contributions to the world of physics.',
+        info: 'The most important and famous of his discoveries was that of gravity. Newton was able to, not only describe why an apple fell towards the Earth rather than fly away from it, but also provide the mathematical basis for this theory, and describe the motion of objects. His discoveries went on to lay the foundation of classical mechanics, and are considered to be some of the most significant contributions to the world of physics.',
         image: './assets/scientist/Newton.jpg',
         altText: 'Sir Isaac Newton Image',
     },
@@ -26,7 +26,7 @@ const scientistInfo = [
     {
         name: 'Michael Faraday (1791 - 1867)',
         title: 'English physicist.',
-        info: 'made some of the most significant contributions to the fields of electromagnetism and electro-chemistry. Although his formal education was scarce, through extensive research and experimentation, he was able to discover the principle of electromagnetic induction, diamagnetism, and then put forth the laws of electrolysis. He invented the electromagnetic rotary devices, which laid the foundation for the development of the electric motors, which today are the main workhorses of most industries.',
+        info: 'He made some of the most significant contributions to the fields of electromagnetism and electro-chemistry.',
         image: './assets/scientist/Faraday.jpg',
         altText: 'Michael Faraday Image',
     },
@@ -34,7 +34,7 @@ const scientistInfo = [
     {
         name: 'Alexander Graham Bell (1857 - 1922)',
         title: 'Famous scientist',
-        info: 'It was during his experiments with the telegraph that Alexander Graham Bell thought up the concept of the telephone, which, without a question, is one of the most useful inventions of all time. Bell himself, however, considered the telephone to be intruding, and did not have a telephone at his place of work.',
+        info: 'It was during his experiments with the telegraph that Alexander Graham Bell thought up the concept of the telephone.',
         image: './assets/scientist/Graham_bell.jpg',
         altText: 'Alexander Graham Bell Image',
     },
@@ -42,7 +42,7 @@ const scientistInfo = [
     {
         name: 'Albert Einstein (1879 – 1955)',
         title: 'German theoretical physicist',
-        info: 'He was wholly responsible for the development of the modern theory of gravity, and partly responsible for the development of quantum mechanics, both of which are the pillars of modern physics. His special and general theories of relativity have captured the minds of the scientific community for decades, and are thought to be so complex that very few people are able to actually grasp their full extent. Einstein is best known for his equation E=mc2, which gives the relation between energy and mass, and forms the basis of atomic energy generation.',
+        info: 'Developed the modern theory of gravity, and partly responsible for the development of quantum mechanics. Einstein is best known for his equation E=mc2, which gives the relation between energy and mass.',
         image: './assets/scientist/Einstein.jpg',
         altText: 'Albert Einstein Image',
     },

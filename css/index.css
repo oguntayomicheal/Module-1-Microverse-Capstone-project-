@@ -4,7 +4,7 @@
     --tetColor: #EC5242;
     --facts_bg: #4d4e50;
     --font-family: 'lato', sans-serif;
-    --paragraph : 12px;
+    --paragraph : 14px;
     --h2 : 25px;
     --h3: 20px;
 }
@@ -116,30 +116,39 @@ a {
 }
 
 .each_fact {
-    font-size: 15px;
+    width: 90%;
     border: 0.5px solid white;
     background-color: var(--facts_bg);
-    padding: 0px 0px 0px 10px;
-        /* margin-top: 30px; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-width: 90%;
-gap: 10px;
-
+    padding: 0px 2.5% 0px 2.5%;
+    gap: 5%;
+    display: grid;
+    grid-template-columns: 15% 30% 45%;
+    grid-template-rows: auto;
 }
 
 .fact_img {
-    height: 40px;
-    width: 32px;
-    background-color: #EC5242;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.fact_img img {
+  height: 40px;
+  width: 32px;
+}
+
 
 .fact_title {
     color: var(--tetColor);
     font-family: var(--font-family) ;
     font-size: var(--h3);
     margin: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -438,25 +447,35 @@ nav i, #menu i {
     width: 90%;
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 30px;
+
+    height: 200px;
 }
 
 .each_fact {
-    font-size: 15px;
     border: 0.5px solid white;
     background-color: var(--facts_bg);
     padding: 0px 0px 0px 0px;
-        /* margin-top: 30px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-width: 15%;
-gap: 10px;
+    height: 210px;
+    width: 15%;
+    gap: 10px;
+    display: grid;
+    grid-template-rows: 15% 30% 45% ;
+    grid-template-columns: 100% ;
+    padding:  2.5% 0px;
+}
+
+.fact_title {
+  margin-top: 10%;
+}
+
+.fact_text {
+  margin-top: 0px;
+  text-align: center;
+  padding: 0px 5%;
 }
 
 #desk_more_sci_facts {
