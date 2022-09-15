@@ -225,8 +225,6 @@ h1 {
   height: auto;
 }
 
-
-
 /* footer */
 #footer {
   display: flex;
@@ -390,9 +388,7 @@ nav i,
     font-size: 15px;
   }
 
-
   /* logo */
-
   #desk_logo_bgd {
     width: 100%;
     background-color: white;
