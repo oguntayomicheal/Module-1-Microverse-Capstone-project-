@@ -1,10 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Science Facts.
 
-> Science Facts.
-
-The project is the capstone project for Module 1 in the microverse curriculum. It is a website for learners to checkout Science Facts, famous scientist, and also ongoing scientific research works.
+> The project is the capstone project for Module 1 in the microverse curriculum. It is a website for learners to checkout Science Facts, famous scientist, and also ongoing scientific research works.
 
 
 ## Built With
@@ -15,7 +13,7 @@ The project is the capstone project for Module 1 in the microverse curriculum. I
 
 ## Live Demo 
 
-[Live Demo Link]( https://mike-devloper.github.io/Module-1-Microverse-Capstone-project-/)
+[Live Demo Link]( https://oguntayomicheal.github.io/Module-1-Microverse-Capstone-project-/)
 
 ## Project description video
 
@@ -26,18 +24,16 @@ The project is the capstone project for Module 1 in the microverse curriculum. I
 
 To get a local copy up and running follow these simple example steps.
 
-- Click the green Code button on the repo.
-- Copy the repository url
-- In your local PC, open your terminal and "cd" into the folder you would like to clone the project.
-- type "git clone (repository url)"
+- clone this repository (click the green code button to copy link)
+- install project dependecies - `npm install`
 
 ## Authors
 
 👤 **Micheal Oguntayo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@oguntayomicheal](https://github.com/oguntayomicheal)
+- Twitter: [@OguntayoMicheal](https://twitter.com/Oguns_micky)
+- LinkedIn: [@OguntayoMicheal](https://www.linkedin.com/in/ogunsmicky/)
 
 
 ## 🤝 Contributing
