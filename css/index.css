@@ -350,9 +350,13 @@ nav i,
 
   /* topbar */
 
-  #topbar {
-    width: 100%;
+  #nav_1 {
     background-color: var(--secColor);
+  }
+
+  #topbar {
+    width: 80%;
+    margin: auto;
     display: flex;
     gap: 20px;
     justify-content: flex-end;
@@ -381,10 +385,15 @@ nav i,
   }
 
   /* navbar */
+  #nav_2 {
+    background-color: white;
+  }
+
   #navbar {
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    width: 80%;
+    margin: auto;
   }
 
   #navbar a {
@@ -411,13 +420,14 @@ nav i,
   }
 
   #large_screen {
-    width: 70%;
-    margin-left: 6%;
+    width: 80%;
+    margin: auto;
   }
 
   .hero_content {
     padding: 30px;
     margin-left: 10px;
+    width: 70%;
   }
 
   .hello_text {
@@ -435,6 +445,8 @@ nav i,
   /* facts */
 
   #desk_facts {
+    width: 87%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -490,8 +502,9 @@ nav i,
   /* Featured scientist */
 
   #desk_scientist {
-    width: 100%;
+    width: 80%;
     height: 100%;
+    margin: auto;
     background-color: white;
     padding: 0 10px 0 10px;
   }
@@ -520,6 +533,8 @@ nav i,
   #footer {
     justify-content: flex-start;
     gap: 30px;
+    width: 80%;
+    margin: auto;
   }
 
   #mobile_footer {
