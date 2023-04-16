@@ -2,7 +2,7 @@ const scientistInfo = [
     {
         name: 'Archimedes (287 - 212 BC)',
         title: 'Mathematician, physicist, astronomer, engineer, inventor.',
-        info: 'He was popular for his ingenious thinking, and was responsible for developing many innovative machines. He is best known for formulating the method for finding the exact volume of an irregularly shaped object.',
+        info: 'He was popular for his ingenious thinking, and was responsible for developing many innovative machines.',
         image: './assets/scientist/Archimedes.jpg',
         altText: 'Archimedes Image',
     },
@@ -18,7 +18,7 @@ const scientistInfo = [
     {
         name: 'Sir Isaac Newton (1642 - 1726)',
         title: 'English physicist and mathematician',
-        info: 'The most important and famous of his discoveries was that of gravity. Newton was able to, not only describe why an apple fell towards the Earth rather than fly away from it, but also provide the mathematical basis for this theory, and describe the motion of objects. His discoveries went on to lay the foundation of classical mechanics, and are considered to be some of the most significant contributions to the world of physics.',
+        info: 'The most important and famous of his discoveries was that of gravity. Newton was able to describe why an apple fell towards the Earth rather than fly away from it.',
         image: './assets/scientist/Newton.jpg',
         altText: 'Sir Isaac Newton Image',
     },
@@ -42,7 +42,7 @@ const scientistInfo = [
     {
         name: 'Albert Einstein (1879 – 1955)',
         title: 'German theoretical physicist',
-        info: 'Developed the modern theory of gravity, and partly responsible for the development of quantum mechanics. Einstein is best known for his equation E=mc2, which gives the relation between energy and mass.',
+        info: 'Developed the modern theory of gravity, and partly responsible for the development of quantum mechanics.',
         image: './assets/scientist/Einstein.jpg',
         altText: 'Albert Einstein Image',
     },
