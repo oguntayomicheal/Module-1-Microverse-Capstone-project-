@@ -56,7 +56,6 @@ h1 {
   background-color: var(--pryColor);
   padding: 15px;
   color: var(--secColorr);
-  margin: 15px;
   font-size: var(--paragraph);
   font-family: var(--font-family);
 }
@@ -397,7 +396,7 @@ nav i,
   }
 
   #navbar a {
-    margin-left: 5%;
+    margin-left: 2%;
     height: 100%;
   }
 
@@ -445,7 +444,7 @@ nav i,
   /* facts */
 
   #desk_facts {
-    width: 87%;
+    width: 91%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -502,11 +501,10 @@ nav i,
   /* Featured scientist */
 
   #desk_scientist {
-    width: 80%;
+    width: 82%;
     height: 100%;
     margin: auto;
     background-color: white;
-    padding: 0 10px 0 10px;
   }
 
   #scientist {

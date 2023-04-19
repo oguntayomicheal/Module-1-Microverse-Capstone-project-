@@ -317,9 +317,13 @@ nav i,
 
   /* topbar */
 
-  #topbar {
-    width: 100%;
+  #nav_1 {
     background-color: var(--secColor);
+  }
+
+  #topbar {
+    width: 80%;
+    margin: auto;
     display: flex;
     gap: 20px;
     justify-content: flex-end;
@@ -348,10 +352,15 @@ nav i,
   }
 
   /* navbar */
+  #nav_2 {
+    background-color: white;
+  }
+
   #navbar {
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    width: 80%;
+    margin: auto;
   }
 
   #navbar a {
@@ -415,6 +424,8 @@ nav i,
   #past_img_container {
     display: flex;
     justify-content: space-between;
+    padding: 0px 45px;
+    width: 70%;
   }
 
   .past_img1,
@@ -431,11 +442,17 @@ nav i,
   }
 
   /* footer */
+  #fooot {
+    background-color: var(--secColor);
+  }
+  
   #footer {
     justify-content: flex-start;
     gap: 30px;
     padding: 20px;
     background-color: var(--secColor);
+    width: 80%;
+    margin: auto;
   }
 
   #footer p {
@@ -451,7 +468,7 @@ nav i,
   }
 
   #footer_logo {
-    margin-left: 8%;
+    margin-left: 5%;
     background-image: url('../assets/SciFactsLogo/Black_SciFactsLogo.png.png');
   }
 }
