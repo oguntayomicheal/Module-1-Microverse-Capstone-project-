@@ -424,7 +424,7 @@ nav i,
   #past_img_container {
     display: flex;
     justify-content: space-between;
-    padding: 0px 45px;
+    padding: 0 45px;
     width: 70%;
   }
 
@@ -445,7 +445,7 @@ nav i,
   #fooot {
     background-color: var(--secColor);
   }
-  
+
   #footer {
     justify-content: flex-start;
     gap: 30px;
