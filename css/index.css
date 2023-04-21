@@ -580,7 +580,7 @@ nav i,
 
 .featured-speakers__more::after {
   content: 'v';
-  color: var(--primary-color);
+  color: var(--tetColor);
   font-weight: bold;
   font-size: 1rem;
 }
@@ -592,6 +592,7 @@ nav i,
 .more .featured-speakers__more::after {
   content: '^';
   font-size: 1.3rem;
+  color: var(--tetColor);
 }
 
 .more #scientist .allScientist .eachScientist:nth-child(n+3) {
