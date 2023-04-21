@@ -554,8 +554,8 @@ nav i,
   }
 
   .eachScientist:nth-child(n+3) {
-    position: static !important; 
-     visibility: visible !important;
+    position: static !important;
+    visibility: visible !important;
   }
 }
 
@@ -572,7 +572,6 @@ nav i,
   position: absolute;
   visibility: hidden;
 }
-
 
 .featured-speakers__more::before {
   content: 'More';

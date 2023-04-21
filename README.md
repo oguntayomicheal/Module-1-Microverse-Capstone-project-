@@ -51,7 +51,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]( https://oguntayomicheal.github.io/Module-1-Microverse-Capstone-project-/)
+- [Live Demo Link]( https://elaborate-llama-b5dc77.netlify.app/)
 
 ## Project description video <a name="project-description"></a>
 
@@ -147,9 +147,9 @@ I would like to thank;
 
   - NO, it was generated dynamically using vanilla JavaScript
 
-- **Aside using GitHub pages for deployment, what other platform can be used?**
+- **Aside using Netlify for deployment, what other platform can be used?**
 
-  - Netlify, Heroku, Firebase, Vercel, etc.
+  - Github pages, Heroku, Firebase, Vercel, etc.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
