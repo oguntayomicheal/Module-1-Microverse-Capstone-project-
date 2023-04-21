@@ -546,4 +546,56 @@ nav i,
   #footer_logo {
     margin-left: 30px;
   }
+
+  /* See more */
+  .featured-speakers__more {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .eachScientist:nth-child(n+3) {
+    position: static !important; 
+     visibility: visible !important;
+  }
+}
+
+.featured-speakers__more {
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid gray;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.eachScientist:nth-child(n+3) {
+  position: absolute;
+  visibility: hidden;
+}
+
+
+.featured-speakers__more::before {
+  content: 'More';
+  margin-right: 0.5rem;
+}
+
+.featured-speakers__more::after {
+  content: 'v';
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.more .featured-speakers__more::before {
+  content: 'See Less';
+}
+
+.more .featured-speakers__more::after {
+  content: '^';
+  font-size: 1.3rem;
+}
+
+.more #scientist .allScientist .eachScientist:nth-child(n+3) {
+  position: static;
+  visibility: visible;
 }
